@@ -2,6 +2,11 @@
 
 > Self-contained example for [scalajs-io/express](https://github.com/scalajs-io/express) by [Lawrence Daniels](https://github.com/ldaniels528)
 
+Proof of concept if you wanted to integrate with the NodeJS platform rather than the JVM. Two cases spring to my mind:
+
+* Some NodeJS libraries may be higher quality than JVM ones. In my case, [EventSource](https://www.npmjs.com/package/eventsource).
+* Migrating incrementally from NodeJS to Scala without committing the heinous act known as [a code rewrite](https://www.joelonsoftware.com/2000/04/06/things-you-should-never-do-part-i/).
+
 # Instructions
 
 [Install SBT](https://www.scalawilliam.com/essential-sbt/) and [NodeJS](https://nodejs.org/en/download/package-manager/). 
